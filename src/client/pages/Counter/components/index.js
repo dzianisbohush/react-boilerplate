@@ -1,9 +1,9 @@
 import React from 'react';
-import { Button } from 'antd';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import { Button, Icon } from 'antd';
 
-import rickImg from '../assets/images/rick.png';
+import rickImg from 'src/client/pages/Counter/assets/images/rick.png';
 
 const Wrapper = styled.div`
   display: flex;
@@ -28,10 +28,10 @@ const CounterPage = ({ counterValue, increaseCounter, decreaseCounter }) => (
     <div>
       <Title>Current value: {counterValue}</Title>
       <Button onClick={decreaseCounter} type="primary">
-        Decrease
+        Decrease <Icon type="down" />
       </Button>
       <Button onClick={increaseCounter} type="primary">
-        Increase
+        Increase <Icon type="up" />
       </Button>
     </div>
     <Link to="/some">go to some page</Link>

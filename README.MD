@@ -1,33 +1,9 @@
-# empty-project
+# draft of react with ssr boilerplate
 
-Empty project.
+TODO:
 
-## Building and running on localhost
+separate webpack configs
 
-First install dependencies:
+hot reload
 
-```sh
-npm install
-```
-
-To run in hot module reloading mode:
-
-```sh
-npm start
-```
-
-To create a production build:
-
-```sh
-npm run build-prod
-```
-
-To create a development build:
-
-```sh
-npm run build-dev
-```
-
-## Running
-
-Open the file `dist/index.html` in your browser
+ssr with router
